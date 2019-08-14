@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Phxsolution_Autoinvoiceshipment</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSLv3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Payment processing module designed to generate invoice/shipment automatically after order is placed.</summary>
+    <description>Payment processing module designed to generate invoice/shipment automatically after order is placed.</description>
+    <notes>Fixed some minor bugs.</notes>
+    <authors><author><name>Prakash Vaniya</name><user>phxsolution</user><email>contact@phxsolution.com</email></author></authors>
+    <date>2014-12-25</date>
+    <time>07:04:49</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Phxsolution_Autoinvoiceshipment.xml" hash="68843fb76191a45f99c0bfb5c39bf261"/></dir></target><target name="magecommunity"><dir name="Phxsolution"><dir name="Autoinvoiceshipment"><dir name="Helper"><file name="Data.php" hash="4766e6531d4ffd4a5a285b56387bd561"/></dir><dir name="Model"><file name="Observer.php" hash="fb8723bf74dac595a1be146eef068075"/></dir><dir name="etc"><file name="config.xml" hash="36dc67655f76cac525c78f776a577575"/><file name="system.xml" hash="7a564ec6d3c5fd230cce8ca0c3f3fa8f"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

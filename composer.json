@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Phxsolution_Autoinvoiceshipment",
+    "type": "magento-module",
+    "license": "OSLv3.0",
+    "homepage": "",
+    "description": "Payment processing module designed to generate invoice/shipment automatically after order is placed.",
+    "authors": [
+    {
+        "name": "Prakash Vaniya",
+        "email": "contact@phxsolution.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
