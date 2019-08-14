@@ -27,7 +27,7 @@
 <config>
   <modules>
     <Phxsolution_Autoinvoiceshipment>
-      <version>0.1.0</version>
+      <version>0.2.0</version>
     </Phxsolution_Autoinvoiceshipment>
   </modules>
   <adminhtml>
@@ -76,4 +76,11 @@
       </sales_order_save_after>
     </events>
   </global>
+  <default>
+    <autoinvoiceshipment_section>
+      <settings>
+        <enabled>1</enabled>
+      </settings>
+    </autoinvoiceshipment_section>
+  </default>
 </config> 

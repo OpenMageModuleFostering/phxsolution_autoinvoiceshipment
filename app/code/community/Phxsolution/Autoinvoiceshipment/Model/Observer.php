@@ -69,7 +69,7 @@ class Phxsolution_Autoinvoiceshipment_Model_Observer
                     $transactionSave->save();
                     //END Handle Invoice
     				
-                    /*//START Handle Shipment
+                    //START Handle Shipment
     				$shipment = $order->prepareShipment();
                     $shipment->register();
                     $order->setIsInProcess(true);
@@ -87,7 +87,7 @@ class Phxsolution_Autoinvoiceshipment_Model_Observer
                         ->addObject($shipment)
                         ->addObject($shipment->getOrder())
                         ->save();
-                    //END Handle Shipment*/	
+                    //END Handle Shipment
     				
                 } catch (Exception $e) {
                     $order->addStatusHistoryComment('Phxsolution_Autoinvoiceshipment: Exception occurred during automaticallyInvoiceShipCompleteOrder action. Exception message: '.$e->getMessage(), false);

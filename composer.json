@@ -3,7 +3,7 @@
     "type": "magento-module",
     "license": "OSLv3.0",
     "homepage": "",
-    "description": "Payment processing module designed to generate invoice/shipment automatically after order is placed.",
+    "description": "Releasing version 0.2.0, Fixed auto shipment issue.",
     "authors": [
     {
         "name": "Prakash Vaniya",

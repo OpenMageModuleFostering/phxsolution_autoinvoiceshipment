@@ -29,7 +29,7 @@
 		<Phxsolution_Autoinvoiceshipment>
 			<active>true</active>
 			<codePool>community</codePool>
-			<version>0.1.0</version>
+			<version>0.2.0</version>
 		</Phxsolution_Autoinvoiceshipment>
 	</modules>
 </config>
