@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Phxsolution_Autoinvoiceshipment",
+    "name": "openmage-module-fostering\/phxsolution_autoinvoiceshipment",
     "type": "magento-module",
-    "license": "OSLv3.0",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Releasing version 0.2.0, Fixed auto shipment issue.",
     "authors": [
