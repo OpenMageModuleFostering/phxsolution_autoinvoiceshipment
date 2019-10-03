@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Phxsolution_Autoinvoiceshipment",
+    "name": "OpenMageModuleFostering\/Phxsolution_Autoinvoiceshipment",
     "type": "magento-module",
     "license": "OSLv3.0",
     "homepage": "",
     "description": "Releasing version 0.2.0, Fixed auto shipment issue.",
     "authors": [
-    {
-        "name": "Prakash Vaniya",
-        "email": "contact@phxsolution.com"
-    }
-],
+        {
+            "name": "Prakash Vaniya",
+            "email": "contact@phxsolution.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
